@@ -58,7 +58,7 @@ const FORMATION = [
     period: " Jan 2023- Dec 2025",
     tags: [""],
     bullets: [
-      "Insira seu texto aqui",
+      "Database integration with the front end for the development of SmartTrain,an application for railway management.",
     ],
   },
   {
@@ -68,7 +68,7 @@ const FORMATION = [
     period: " Feb 2026- Present",
     tags: [""],
     bullets: [
-      "Insira seu texto aqui",
+      "Building knowledge in new development languages ​​such as C# and C",
     ],
   },
 ];
