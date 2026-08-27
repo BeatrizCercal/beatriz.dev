@@ -52,11 +52,21 @@ const WORK_EXPERIENCE = [
 
 const FORMATION = [
   {
-    company: "SENAI/SC - Serviço Nacional da Indústria",
-    companyUrl: "Systems Development Technician",
-    role: "Insira seu texto aqui",
+    company: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
+    companyUrl: "",
+    role: "Systems Development Technician",
     period: " Jan 2023- Dec 2025",
-    tags: ["Insira seu texto aqui"],
+    tags: [""],
+    bullets: [
+      "Insira seu texto aqui",
+    ],
+  },
+  {
+    company: "Centro Universitário Católica de Santa Catarina - Joinville",
+    companyUrl: "https://www.catolicasc.org.br/",
+    role: "Software Engineer ",
+    period: " Feb 2026- Present",
+    tags: [""],
     bullets: [
       "Insira seu texto aqui",
     ],
@@ -65,10 +75,10 @@ const FORMATION = [
 
 const PROJECTS = [
   {
-    title: "Insira seu texto aqui",
-    description: "Insira seu texto aqui",
-    tags: ["Insira seu texto aqui"],
-    href: "",
+    title: "Booklly",
+    description: "A full-stack book tracking dashboard where you can manage your reading list — books you want to read, are currently reading, or have already finished.",
+    tags: ["MySQL", "JavaScript"],
+    href: "https://github.com/Booklly/Booklly-DashBoard",
   },
 ];
 
@@ -84,14 +94,14 @@ const CERTIFICATIONS = [
   {
     title: "Certificação Fábrica de Software",
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
-    certificationImage: "https://media.licdn.com/dms/image/v2/D4D0BAQHsgalvnPa8RA/company-logo_100_100/B4DZygYXO8JkAU-/0/1772217267853/senai_sc_logo?e=1789603200&v=beta&t=svtAWgRwjFCPlYFWftPk8L7ez8k9Tq9-OW8fF7d_Rrw",
+    certificationImage: "https://media.licdn.com/dms/image/v2/D4D2DAQGR2TRsArvLYg/profile-treasury-document-cover-images_480/B4DZ9c6nJfJwA0-/0/1783970298631?e=1788480000&v=beta&t=hB_2cRfTRqcBmGFQaVRmaJawhFGtbpIt_Fp2TvlvScw",
     date: "Dez 2025",
     href: "",
   },
   {
     title: "Certificação Lógica de Desenvolvimento de Sistemas",
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
-    certificationImage: "https://media.licdn.com/dms/image/v2/D4D0BAQHsgalvnPa8RA/company-logo_100_100/B4DZygYXO8JkAU-/0/1772217267853/senai_sc_logo?e=1789603200&v=beta&t=svtAWgRwjFCPlYFWftPk8L7ez8k9Tq9-OW8fF7d_Rrw",
+    certificationImage: "https://media.licdn.com/dms/image/v2/D4D2DAQEpNYzg0c8ulg/profile-treasury-document-cover-images_1920/B4DZ9c6E6iJQBE-/0/1783970158961?e=1788480000&v=beta&t=aPvBZ9Pu2nLC8KWinRMmkOOhcCWlVe2_hr0wcohW0_o",
     date: "Set 2023",
     href: "",
   },
