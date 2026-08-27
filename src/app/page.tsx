@@ -52,8 +52,8 @@ const WORK_EXPERIENCE = [
 
 const FORMATION = [
   {
-    company: "Systems Development Technician",
-    companyUrl: "SENAI/SC",
+    company: "SENAI/SC - Serviço Nacional da Indústria",
+    companyUrl: "Systems Development Technician",
     role: "Insira seu texto aqui",
     period: " Jan 2023- Dec 2025",
     tags: ["Insira seu texto aqui"],
