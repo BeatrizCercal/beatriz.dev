@@ -68,7 +68,7 @@ const FORMATION = [
     period: " Feb 2026- Present",
     tags: [""],
     bullets: [
-      "Building knowledge in new development languages ​​such as C# and C",
+      "Building knowledge in new development languages ​​such as C# and C.",
     ],
   },
 ];
@@ -206,7 +206,7 @@ export default function Home() {
           <section className="flex min-h-0 flex-col gap-y-3 print:gap-y-1">
             <h2 className="text-xl font-bold">About</h2>
             <p className="font-mono text-sm text-pretty" style={{ color: "hsl(var(--foreground) / 0.8)" }}>
-              Insira seu texto aqui
+              I am a systems development technician and a software engineering student. I seek to make a difference by solving real-world challenges that impact daily social life. I am enthusiastic about learning new technologies and methodologies through courses and literature that help me grow professionally.
             </p>
           </section>
 
