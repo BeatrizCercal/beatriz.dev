@@ -1,6 +1,4 @@
 import { Globe, Mail } from "lucide-react";
-import Link from "next/link";
-import { getAllPosts } from "@/lib/blog";
 import { DiscordOnlineDot } from "@/components/activity-section";
 import { DISCORD_USER_ID } from "@/lib/discord";
 import { CommandMenu } from "@/components/command-menu";
@@ -94,16 +92,16 @@ const CERTIFICATIONS = [
   {
     title: "Certificação Fábrica de Software",
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
-    certificationImage: "https://media.licdn.com/dms/image/v2/D4D2DAQGR2TRsArvLYg/profile-treasury-document-cover-images_480/B4DZ9c6nJfJwA0-/0/1783970298631?e=1788480000&v=beta&t=hB_2cRfTRqcBmGFQaVRmaJawhFGtbpIt_Fp2TvlvScw",
+    certificationImage: "",
+    href: "https://media.licdn.com/dms/image/v2/D4D2DAQGR2TRsArvLYg/profile-treasury-document-cover-images_480/B4DZ9c6nJfJwA0-/0/1783970298631?e=1788480000&v=beta&t=hB_2cRfTRqcBmGFQaVRmaJawhFGtbpIt_Fp2TvlvScw",
     date: "Dez 2025",
-    href: "",
   },
   {
     title: "Certificação Lógica de Desenvolvimento de Sistemas",
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
-    certificationImage: "https://media.licdn.com/dms/image/v2/D4D2DAQEpNYzg0c8ulg/profile-treasury-document-cover-images_1920/B4DZ9c6E6iJQBE-/0/1783970158961?e=1788480000&v=beta&t=aPvBZ9Pu2nLC8KWinRMmkOOhcCWlVe2_hr0wcohW0_o",
+    certificationImage: "",
     date: "Set 2023",
-    href: "",
+    href: "https://media.licdn.com/dms/image/v2/D4D2DAQEpNYzg0c8ulg/profile-treasury-document-cover-images_1920/B4DZ9c6E6iJQBE-/0/1783970158961?e=1788480000&v=beta&t=aPvBZ9Pu2nLC8KWinRMmkOOhcCWlVe2_hr0wcohW0_o",
   },
 ];
 
@@ -160,8 +158,6 @@ function DarkBadge({ children }: { children: React.ReactNode }) {
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function Home() {
-  const blogPosts = getAllPosts();
-
   return (
     <>
       <main
@@ -306,33 +302,6 @@ export default function Home() {
             <ul className="flex list-none flex-wrap gap-1 p-0">
               {SKILLS.map((skill) => <li key={skill}><DarkBadge>{skill}</DarkBadge></li>)}
             </ul>
-          </section>
-
-          {/* ── Blog ── */}
-          <section className="flex min-h-0 flex-col gap-y-3 print:gap-y-1">
-            <h2 className="text-xl font-bold">Blog</h2>
-            <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-              {blogPosts.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="hover:no-underline" style={{ textDecoration: "none", color: "inherit" }}>
-                  <div
-                    className="rounded-lg border flex h-full flex-col overflow-hidden p-3 transition-colors hover:bg-accent"
-                    style={{ backgroundColor: "hsl(var(--card))", borderColor: "hsl(var(--border))" }}
-                    role="article"
-                  >
-                    <div className="flex flex-col space-y-1">
-                      <h3 className="font-semibold tracking-tight text-base">{post.title}</h3>
-                      <p className="font-mono text-xs text-pretty" style={{ color: "hsl(var(--foreground) / 0.8)" }}>{post.description}</p>
-                    </div>
-                    <div className="mt-auto pt-3 flex items-end justify-between gap-2">
-                      <ul className="flex list-none flex-wrap gap-1 p-0">
-                        {post.tags.map((tag) => <li key={tag}><SecondaryBadge>{tag}</SecondaryBadge></li>)}
-                      </ul>
-                      <span className="font-mono text-xs tabular-nums shrink-0" style={{ color: "hsl(var(--muted-foreground))" }}>{post.date}</span>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
           </section>
 
           {/* ── Certifications ── */}
