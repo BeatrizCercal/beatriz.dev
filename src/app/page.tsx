@@ -78,6 +78,12 @@ const PROJECTS = [
     tags: ["MySQL", "JavaScript"],
     href: "https://github.com/Booklly/Booklly-DashBoard",
   },
+  {
+    title: "E-commerce Bia Fashion Kids",
+    description: "An e-commerce project for Bia Fashion Kids, with an admin area for the leaders.",
+    tags: ["E-commerce"],
+    href: "",
+  },
 ];
 
 const SKILLS = [
