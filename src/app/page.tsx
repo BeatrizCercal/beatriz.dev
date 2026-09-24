@@ -87,11 +87,9 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  "HTML", "CSS", "React",
-  "C", "Node", "Python", "MySQL",
-  "GitHub", "Docker", "Figma", "VS Code", "Bootstrap", "Jupyter Notebook",
+  "HTML", "CSS", "JavaScript", "TypeScript", "PostgreSQL", "MySQL",
+  "GitHub", "Docker", "VS Code", 
   "Proatividade", "Comunicação", "Organização", "Adaptabilidade", "Gestão de tempo", "Resolução de problemas",
-  "Java", "JavaScript",
 ];
 
 const CERTIFICATIONS = [
