@@ -99,7 +99,7 @@ const CERTIFICATIONS = [
     title: "Certificação Fábrica de Software",
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
     certificationImage: "",
-    href: "https://media.licdn.com/dms/image/v2/D4D2DAQGR2TRsArvLYg/profile-treasury-document-cover-images_480/B4DZ9c6nJfJwA0-/0/1783970298631?e=1788480000&v=beta&t=hB_2cRfTRqcBmGFQaVRmaJawhFGtbpIt_Fp2TvlvScw",
+    href: "",
     date: "Dez 2025",
   },
   {
@@ -107,7 +107,7 @@ const CERTIFICATIONS = [
     issuer: "SENAI/SC - Serviço Nacional de Aprendizagem Industrial",
     certificationImage: "",
     date: "Set 2023",
-    href: "https://media.licdn.com/dms/image/v2/D4D2DAQEpNYzg0c8ulg/profile-treasury-document-cover-images_1920/B4DZ9c6E6iJQBE-/0/1783970158961?e=1788480000&v=beta&t=aPvBZ9Pu2nLC8KWinRMmkOOhcCWlVe2_hr0wcohW0_o",
+    href: "",
   },
 ];
 
