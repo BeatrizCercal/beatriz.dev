@@ -1,7 +1,6 @@
 "use client";
 
 import { Award, Command, Printer, Search, X } from "lucide-react";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 type SocialLink = { label: string; href: string; icon: React.ReactNode };
@@ -207,20 +206,6 @@ export function CommandMenu({ socialLinks }: { socialLinks: SocialLink[] }) {
       >
         <Command size={20} />
       </button>
-      <Image
-        src="/hello-kitty.png"
-        alt="Hello Kitty"
-        width={160}
-        height={195}
-        className="pointer-events-none fixed bottom-9 left-24 z-40 hidden md:block print:hidden"
-      />
-      <Image
-        src="/hello-kitty-2.png"
-        alt="Hello Kitty"
-        width={157}
-        height={195}
-        className="pointer-events-none fixed bottom-9 right-24 z-40 hidden md:block print:hidden"
-      />
       <div className="fixed inset-x-0 bottom-0 z-40 hidden border-t md:block print:hidden" style={{ borderColor: "hsl(var(--border))", backgroundColor: "hsl(var(--background))" }}>
         <button
           type="button"
