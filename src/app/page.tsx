@@ -84,6 +84,12 @@ const PROJECTS = [
     tags: ["E-commerce"],
     href: "",
   },
+  {
+    title: "LalaIA",
+    description: "A gamified urban discovery platform for finding places, events, and live experiences in Joinville.",
+    tags: ["Next.js", "TypeScript", "Supabase"],
+    href: "https://github.com/Evelynlobo91/lalaIA",
+  },
 ];
 
 const SKILLS = [
